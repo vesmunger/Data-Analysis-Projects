@@ -1,9 +1,6 @@
-# 📱 SOCIAL MEDIA USAGE ANALYSIS  
-### By Bill Motor  
+# SOCIAL MEDIA USAGE ANALYSIS  
 
----
-
-## 📌 Introduction  
+## Introduction  
 
 In this digital age, social media has redefined human communication and interaction. Platforms such as Facebook, Instagram, Twitter, and TikTok have transformed how individuals and organizations engage, share content, and influence public opinion.  
 
@@ -11,7 +8,7 @@ This project analyzes patterns and trends in social media usage, focusing on dem
 
 ---
 
-## 🎯 Objectives  
+## Objectives  
 
 - Analyze user behavior across demographics  
 - Identify key usage patterns and trends  
@@ -21,7 +18,7 @@ This project analyzes patterns and trends in social media usage, focusing on dem
 
 ---
 
-## 🧰 Tech Stack  
+## Tech Stack  
 
 - Python  
 - Pandas – Data manipulation  
@@ -31,13 +28,13 @@ This project analyzes patterns and trends in social media usage, focusing on dem
 
 ---
 
-## 📦 Installation  
+## Installation  
 ```
 pip install pandas numpy matplotlib seaborn
 ```
 ---
 
-## 📊 Dataset  
+## Dataset  
 
 - File: Time-Wasters on Social Media.csv  
 - Size: 1000 rows × 31 columns  
@@ -45,24 +42,24 @@ pip install pandas numpy matplotlib seaborn
 
 ---
 
-## 💻 Implementation & Analysis
+## Implementation & Analysis
 ```
 import pandas as pd
 import numpy as np
 import seaborn as sns
 import matplotlib.pyplot as plt
 ```
-## 📥 Data Loading
+## Data Loading
 ```
 df = pd.read_csv('Time-Wasters on Social Media.csv')
 ```
 
-## 🔍 Data Exploration
+## Data Exploration
 ```
 print(df.info())
 print(df.describe())
 ```
-## 📈 Visualizations
+## Visualizations
 
 ### 1. Gender Distribution
 ```
@@ -160,7 +157,7 @@ plt.show()
 
 ---
 
-### 🧠 Key Findings  
+### Key Findings  
 
 - 📱 Smartphones are the primary access device.  
 - 🌍 Rural users are highly active.  
@@ -170,17 +167,11 @@ plt.show()
 
 ---
 
-### 🔮 Future Improvements  
+### Future Improvements  
 
 - Build predictive models for addiction levels.  
 - Perform user segmentation (clustering).  
 - Develop interactive dashboards (Power BI / Streamlit).  
-
----
-
-### 📜 License  
-
-Open-source for educational and research purposes.  
 
 ---
 
